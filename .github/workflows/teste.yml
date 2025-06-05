@@ -19,6 +19,6 @@ jobs:
     - name: Install dependencies
       run: npm install
       
-    - name: Run the testes 
-      run: npx test -- --coverage
+    - name: Run the tests 
+      run: npm test -- --coverage
     
